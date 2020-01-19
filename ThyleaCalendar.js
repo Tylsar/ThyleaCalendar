@@ -554,10 +554,8 @@ var Calendar = Calendar || (function() {
                 remainder = year % 2;
                 if(remainder==0){
                     leap = 1;
-                    sendChat('Calendar','/w gm Leap 1');
                 }else{
                     leap = 0;
-                    sendChat('Calendar','/w gm Leap 0');
                 }
                 break;
                 
